@@ -1,0 +1,106 @@
+body{
+    margin: 0%;
+    display: grid;
+    grid-template-columns: 1,100%;
+    grid-template-rows: 4,1fr;
+    grid-gap: 10px;
+    background: linear-gradient(to left,rgb(227, 247, 75),yellow,rgb(237, 237, 81));
+
+}
+
+
+
+.navegacion{
+
+
+    background-color: rgb(20, 60, 162);
+    display: flex;
+    justify-content: space-evenly;
+width: auto;
+height: 30px;
+
+}
+
+.navegacion li{
+
+
+    list-style: none;
+ text-align: center;
+   width: 20%;
+   
+}
+
+.navegacion li:hover{
+
+background-color: red;
+
+}
+.navegacion a{
+    text-decoration: none;
+    font-size: 1.2rem;
+ color: white;
+}
+
+
+/*informacion de almacenes de insumos*/
+
+
+.Informacion{
+
+align-items: center;
+display: grid;
+
+width:100%;
+height: 50%;
+grid-gap: 10px;
+
+place-items: center;
+}
+
+.pry1{
+width: 50%;
+height: 100px;
+border-radius: 90px;
+background-color: white;
+border: solid aqua 2px;
+text-align: center;
+}
+.pry1:hover{
+
+    border: solid rgb(247, 0, 255) 2px;    
+}
+/*boton decorativo*/
+#btnIniciar{
+width: 300px;
+height: 70px;
+background-color: rgb(255, 255, 30);
+border-radius: 50px;
+border-color: rgb(201, 15, 15);
+box-shadow: 1px 1px 1px 1px blue,
+1px 1px 1px 1px blue,
+1px 1px 1px blue
+
+
+}
+#btnIniciar:hover{
+
+background-color: white;
+color: yellow;
+font-size: 1rem;
+border-color: blue;
+
+
+}
+
+/*Inicio de vidriera*/
+.Inicio{
+    width: 100%;
+    height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 10px;
+
+
+}
